@@ -26,6 +26,14 @@
 	
 </head>
 	<body>
+	<input type="hidden" id="home-title" value="<?php echo $menu['home']['tab']['label']; ?>" />
+	<input type="hidden" id="general_info-title" value="<?php echo $menu['company']['tab'].' / '.$menu['company']['subtabs'][0]['label']; ?>" />
+	<input type="hidden" id="office-title" value="<?php echo $menu['company']['tab'].' / '.$menu['company']['subtabs'][1]['label']; ?>" />
+	<input type="hidden" id="company_info-title" value="<?php echo $menu['company']['tab'].' / '.$menu['company']['subtabs'][2]['label']; ?>" />
+	<input type="hidden" id="services-title" value="<?php echo $menu['services']['tab']['label']; ?>" />
+	<input type="hidden" id="contact_us-title" value="<?php echo $menu['contact']['tab']['label']; ?>" />
+	<input type="hidden" id="lang" value="<?php echo $lang; ?>" />
+	<div id="main-content-row" class="row">
 	<div class="container">
 	  <div class="row">
 		  <div class="header-brand-div col-lg-8 col-md-8 col-sm-12 col-xs-12">
@@ -33,10 +41,13 @@
 		  </div>
 		  <div class="header-info-div col-lg-4 col-md-4 hidden-sm hidden-xs">
 		    <div class="col-lg-12 col-md-12 header-info">
-		      <span class="glyphicon glyphicon-map-marker"></span><?php echo $header['office']; ?>
+		      <span class="glyphicon glyphicon-map-marker"></span><a class="geo-link" href="geo:Ορφανίδου 2, Θεσσαλονίκη?q=Ορφανίδου 2, Θεσσαλονίκη"><?php echo $header['office']; ?></a>
 		    </div>
 		    <div class="col-lg-12 col-md-12 header-info">
-		      <span class="glyphicon glyphicon-phone-alt"></span><a href="tel:+302310528616"><?php echo $header['tel']; ?> 2310 528616</a>
+		      <span class="glyphicon glyphicon-earphone"></span><a href="tel:+302310528616"><?php echo $header['tel']; ?></a>
+		    </div>
+		    <div class="col-lg-12 col-md-12 header-info">
+		      <span class="glyphicon glyphicon-time"></span><span id="time-interval"></span>
 		    </div>
 		  </div>
 	  </div>
@@ -80,6 +91,9 @@
           </div>
         </div>
 	  </nav>
+	  <noscript>
+	    <h5>This page won't be functional with javascript disabled. Please enable javascript and come back.</h5>
+	  </noscript>
       <!--[if lt IE 9]>
 		  <h5>This page is best viewed in <a href="http://www.mozilla.org/el/firefox/new/">Firefox</a>, <a href="http://www.google.com/intl/el/chrome/browser/">Google Chrome</a>, <a href="http://support.apple.com/downloads/#safari">Safari</a>, <a href="http://www.opera.com/">Opera</a> or <a href="http://windows.microsoft.com/el-gr/internet-explorer/download-ie">Internet Explorer 9 or later</a>.</h5>
 	  <![endif]-->

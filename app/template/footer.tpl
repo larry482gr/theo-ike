@@ -1,6 +1,10 @@
 	</div> <!-- container closing tag -->
+	</div> <!-- row closing tag -->
 	<div class="footer">
 	  <div class="container">
+	  	<div>
+	  		<?php echo $footer['copyright']; ?>
+	  	</div>
 	  </div>
 	</div>
 	

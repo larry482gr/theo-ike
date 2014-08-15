@@ -1,62 +1,22 @@
 body {
-	font-family: Georgia, Times, "Times New Roman", serif;
-	margin-top: 20px;
+	background-color: #AAA;
 }
 
 :focus {
 	outline: none !important;
 }
 
+#main-content-row {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-bottom: 0px !important;
+	background-color: #FFFFFF;
+}
+
 .brand {
+	font-family: Georgia, Times, "Times New Roman", serif;
 	color: #428bca !important;
-	text-shadow: 0 1px 0 #ccc, 
-				 0 2px 0 #c9c9c9,
-				 0 3px 0 #bbb,
-				 0 4px 0 #b9b9b9,
-                 0 5px 0 #aaa,
-                 0 6px 1px rgba(0,0,0,.1),
-                 0 0 5px rgba(0,0,0,.1),
-                 0 1px 3px rgba(0,0,0,.3),
-                 0 3px 5px rgba(0,0,0,.2),
-                 0 5px 10px rgba(0,0,0,.25),
-                 0 10px 10px rgba(0,0,0,.2),
-                 0 20px 20px rgba(0,0,0,.15);
-    -moz-text-shadow: 0 1px 0 #ccc, 
-				 0 2px 0 #c9c9c9,
-				 0 3px 0 #bbb,
-				 0 4px 0 #b9b9b9,
-                 0 5px 0 #aaa,
-                 0 6px 1px rgba(0,0,0,.1),
-                 0 0 5px rgba(0,0,0,.1),
-                 0 1px 3px rgba(0,0,0,.3),
-                 0 3px 5px rgba(0,0,0,.2),
-                 0 5px 10px rgba(0,0,0,.25),
-                 0 10px 10px rgba(0,0,0,.2),
-                 0 20px 20px rgba(0,0,0,.15);
-    -webkit-text-shadow: 0 1px 0 #ccc, 
-				 0 2px 0 #c9c9c9,
-				 0 3px 0 #bbb,
-				 0 4px 0 #b9b9b9,
-                 0 5px 0 #aaa,
-                 0 6px 1px rgba(0,0,0,.1),
-                 0 0 5px rgba(0,0,0,.1),
-                 0 1px 3px rgba(0,0,0,.3),
-                 0 3px 5px rgba(0,0,0,.2),
-                 0 5px 10px rgba(0,0,0,.25),
-                 0 10px 10px rgba(0,0,0,.2),
-                 0 20px 20px rgba(0,0,0,.15);
-    -o-text-shadow: 0 1px 0 #ccc, 
-				 0 2px 0 #c9c9c9,
-				 0 3px 0 #bbb,
-				 0 4px 0 #b9b9b9,
-                 0 5px 0 #aaa,
-                 0 6px 1px rgba(0,0,0,.1),
-                 0 0 5px rgba(0,0,0,.1),
-                 0 1px 3px rgba(0,0,0,.3),
-                 0 3px 5px rgba(0,0,0,.2),
-                 0 5px 10px rgba(0,0,0,.25),
-                 0 10px 10px rgba(0,0,0,.2),
-                 0 20px 20px rgba(0,0,0,.15);
+	text-shadow: -1px 1px 2px #DDD, -2px 2px 0px #CCC, -3px 3px 0px #BBB, -4px 4px 0px #AAA, -5px 5px 0px #999, -6px 6px 5px #888;
 }
 
 .brand:hover {
@@ -77,7 +37,6 @@ body {
 }
 
 .header-info-div {
-	padding-top: 14px;
 	padding-right: 10px;
 }
 
@@ -86,7 +45,12 @@ body {
 }
 
 .header-info:first-child {
-	margin-bottom: 10px;
+	margin-top: 2px;
+	margin-bottom: 6px;
+}
+
+.header-info:last-child {
+	margin-top: 6px;
 }
 
 .header-info > span {
@@ -106,7 +70,53 @@ body {
 	color: #FFF !important;
 }
 
+.panel-title {
+	max-height: 18px;
+	overflow: hidden;
+}
+
+.panel-body {
+	min-height: 400px;
+}
+
+.footer {
+	width: 100%;
+	background-color: #DDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-moz-box-shadow: 0px -1px 4px 2px #888;
+	-webkit-box-shadow: 0px -1px 4px 2px #888;
+	box-shadow: 0px -1px 4px 2px #888;
+	position: absolute;
+	margin-bottom: 0px;
+}
+
+.footer > .container > div {
+	text-align: center;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	text-shadow: -1px -1px 0px #000, 1px 1px 0px #e7e7e7;
+	-moz-text-shadow: -1px -1px 0px #000, 1px 1px 0px #e7e7e7;
+	-webkit-text-shadow: -1px -1px 0px #000, 1px 1px 0px #e7e7e7;
+	-o-text-shadow: -1px -1px 0px #000, 1px 1px 0px #e7e7e7;
+	color: #999;
+	opacity: 0.7;
+	font-size: 18px;
+}
+
 /*
+.footer > .container > div > a {
+	color: #888;
+	text-decoration: none;
+}
+
+.footer > .container > div.pull-left {
+	padding-left: 6px;
+}
+
+.footer > .container > div.pull-right {
+	padding-right: 6px;
+}
+
 #main-navbar {
 	background-color: #428bca;
 	box-shadow: -2px -2px 1px #fff, -2px 2px 1px #444;

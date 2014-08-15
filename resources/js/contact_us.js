@@ -1,16 +1,15 @@
 var tempLength = -1;
 
 $(document).ready(function(){
-	$('.container').on('focus', '#message', function() {
-		if($('#message').val().length == 0)
-			$('#message').val($('#message-placeholder').val());
-		else if($('#message').val() == $('#message-placeholder').val())
-			$('#message').val('');
-	});
-	
-	$('.container').on('focusout', '#message', function() {
-		if($('#message').val().length == 0)
-			$('#message').val($('#message-placeholder').val());
+	$('.geo-link').on('click', function(e){
+		if (!navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)){
+			e.preventDefault();
+			window.open('https://www.google.gr/maps/search/'+$(this).attr('href'), '_blank');
+		}
+		else if(navigator.userAgent.match(/iPhone|iPad|iPod/i)) {
+			e.preventDefault();
+			window.open('maps'+$(this).attr('href').substring(3), '_blank');
+		}
 	});
 	
 	$('.container').on('click', '#contact-form button', function() {
@@ -56,7 +55,7 @@ function validateEmail(email) {
 
 function submitForm() {
 	$.ajax({
-			url: "/" + $('#lang').val() + "/contact_us/processContactForm",
+			url: "/contact_us/processContactForm",
 			cache: false,
 			method: 'post',
 			dataType: "text",
@@ -71,10 +70,15 @@ function submitForm() {
 				$('#contact-form button').attr('disabled', true);
 			},
 			success: function(result) {
-				if(result == 'success')
-					bootbox.alert('Το μήνυμα σας παραδόθηκε επιτυχώς.');
+				if(result == 'success') {
+					bootbox.alert('<h5 style="color: #0C0">Το μήνυμα σας παραδόθηκε επιτυχώς.</h5><div>Ένας συνεργάτης μας θα επικοινωνήσει το συντομότερο δυνατό μαζί σας.</div><div>Ευχαριστούμε για την επικοινωνία.</div>');
+					$('#full_name').val('');
+					$('#email').val('');
+					$('#subject').val('');
+					$('#message').val('');
+				}
 				else if(result == 'error')
-					bootbox.alert('Αποτυχία αποστολής email. Παρακαλώ δοκιμάστε ξανά.');
+					bootbox.alert('<h5 style="color: #A00">Αποτυχία αποστολής email. Παρακαλώ δοκιμάστε ξανά.</h5>');
 				else if(result == 'fill_all')
 					bootbox.alert('Fill All...');
 				
@@ -82,7 +86,7 @@ function submitForm() {
 				$('#contact-form button').attr('disabled', false);
 			},
 			error: function(result) {
-				bootbox.alert("Αποτυχία αποστολής email. Παρακαλώ δοκιμάστε ξανά.");
+				bootbox.alert('<h5 style="color: #A00">Αποτυχία αποστολής email. Παρακαλώ δοκιμάστε ξανά.</h5>');
 				$('#contact-form button').append('...');
 				$('#contact-form button').attr('disabled', false);
 			}

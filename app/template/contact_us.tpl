@@ -51,11 +51,11 @@
 	  	</div>
 	  	<div class="col-md-5 col-sm-5">
 	  	  <div class="contact-info">
-	  	    <!-- <div><span class="glyphicon glyphicon-user"></span>Ε. Συμεωνίδου – Καστανίδου</div> -->
-	  	    <div><span class="glyphicon glyphicon-briefcase"></span><!-- Νομική Σχολή ΑΠΘ, γρ. 205 --></div>
-	  	    <div><span class="glyphicon glyphicon-phone-alt"></span><!-- Τηλ: <a href="tel:+302310996496">2310 996496</a> / <a href="tel:+302310344308">344308</a> --></div>
-	  	    <div><span class="glyphicon glyphicon-print"></span><!-- Φαξ: 2310 996494 --></div>
-	  	    <div><span class="glyphicon glyphicon-envelope"></span><!-- <a href="mailto:kastan@law.auth.gr">kastan@law.auth.gr</a> --></div>
+	  	    <div><span class="glyphicon glyphicon-briefcase"></span><a class="geo-link" href="geo:Ορφανίδου 2, Θεσσαλονίκη?q=Ορφανίδου 2, Θεσσαλονίκη"><?php echo $contact['office']; ?></a></div>
+	  	    <div><span class="glyphicon glyphicon-earphone"></span><a href="tel:+302310528616"><?php echo $contact['tel']; ?></a></div>
+	  	    <div><span class="glyphicon glyphicon-phone"></span><a href="tel:+306940260668"><?php echo $contact['mobile']; ?></a></div>
+	  	    <div><span class="glyphicon glyphicon-print"></span><?php echo $contact['fax']; ?></div>
+	  	    <div><span class="glyphicon glyphicon-envelope"></span><a href="mailto:info@theodorou-ike.gr"><?php echo $contact['email']; ?></a></div>
 	  	  </div>
 	  	</div>
       </div>

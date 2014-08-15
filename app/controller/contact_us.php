@@ -19,16 +19,16 @@ class ControllerContactUs extends Controller {
 	}
 	
 	public function processContactForm() {
-		$name = $this->db->escape($this->request->post['name']);
-		$email = $this->db->escape($this->request->post['email']);
-		$subject = $this->db->escape($this->request->post['subject']);
-		$message = nl2br($this->request->post['message']);
+		$name = htmlspecialchars($this->request->post['name']);
+		$email = htmlspecialchars($this->request->post['email']);
+		$subject = htmlspecialchars($this->request->post['subject']);
+		$message = nl2br(htmlspecialchars($this->request->post['message']));
 		
 		if(empty($name) || empty($email) || empty($subject) || empty($message))
 			die('fill_all');
 		else {
-			$to      = 'bioithiki@gmail.com';
-			$message = '<h3>Message from '.$name.' via Contact Form</h3><div>'.$message.'</div>';
+			$to      = 'g.theodorou.ike@gmail.com';
+			$message = '<h3>Μήνυμα από <span style="color: #2a2a37">'.$name.'</span> μέσω της Φόρμας Επικοινωνίας</h3><div>'.$message.'</div>';
 			// To send HTML mail, the Content-type header must be set
 			$headers  = 'MIME-Version: 1.0' . "\r\n";
 			$headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
