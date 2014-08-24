@@ -3,9 +3,7 @@
 	  <div class="panel-heading"><h3 class="panel-title"></h3></div>
 	  <div id="content-panel" class="panel-body">
 	  	<dl id="home" class="hidden col-md-12 col-sm-12 col-xs-12">
-	  	  <dt>
-	  		<h3 class="under-construction"><?php echo $underConstruction; ?></h3>
-	  	  </dt>
+	  	  <?php echo $home; ?>
 	  	</dl>
 	  	<dl id="general_info" class="hidden col-md-12 col-sm-12 col-xs-12">
 	  	  <dt>

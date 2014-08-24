@@ -33,7 +33,7 @@
 	<input type="hidden" id="services-title" value="<?php echo $menu['services']['tab']['label']; ?>" />
 	<input type="hidden" id="contact_us-title" value="<?php echo $menu['contact']['tab']['label']; ?>" />
 	<input type="hidden" id="lang" value="<?php echo $lang; ?>" />
-	<div id="main-content-row" class="row">
+	<div id="main-content-row">
 	<div class="container">
 	  <div class="row">
 		  <div class="header-brand-div col-lg-8 col-md-8 col-sm-12 col-xs-12">

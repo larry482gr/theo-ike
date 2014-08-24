@@ -4,6 +4,7 @@ class ControllerHome extends Controller {
 	public function index() {
 		$lang_id = $this->language->getCurrentLanguageId();
 		$this->data['lang'] = $this->language->getCurrentLanguage();
+		$this->data['home'] = $this->language->getLanguage('home');
 		$this->data['companyInfo'] = $this->language->getLanguage('companyInfo');
 		$this->data['office'] = $this->language->getLanguage('office');
 		$this->data['contact'] = $this->language->getLanguage('contact');
