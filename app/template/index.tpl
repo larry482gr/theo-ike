@@ -6,9 +6,7 @@
 	  	  <?php echo $home; ?>
 	  	</dl>
 	  	<dl id="general_info" class="hidden col-md-12 col-sm-12 col-xs-12">
-	  	  <dt>
-	  		<h3 class="under-construction"><?php echo $underConstruction; ?></h3>
-	  	  </dt>
+	  	  <?php echo $generalInfo; ?>
 	  	</dl>
 	  	<dl id="office" class="hidden col-md-12 col-sm-12 col-xs-12">
 	  	  <div id="office-desc" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
