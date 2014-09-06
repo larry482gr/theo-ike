@@ -60,9 +60,7 @@
 	  		<?php echo $companyInfo; ?>
 	  	</dl>
 	  	<dl id="services" class="hidden col-md-12 col-sm-12 col-xs-12">
-	  	  <dt>
-	  		<h3 class="under-construction"><?php echo $underConstruction; ?></h3>
-	  	  </dt>
+	  	  <?php echo $services; ?>
 	  	</dl>
 	    <dl id="contact_us" class="hidden col-md-12 col-sm-12 col-xs-12">
 		    <dt>
