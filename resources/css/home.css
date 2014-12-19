@@ -48,3 +48,8 @@ dd {
 	padding-left: 25px;
 	list-style-type: lower-greek;
 }
+
+.no-list-style-en {
+	padding-left: 25px;
+	list-style-type: lower-latin;
+}

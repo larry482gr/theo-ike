@@ -25,107 +25,107 @@
 	$language['search']['totalResults'] = 'Total Results for';
 	
 	// Home
-	$language['home'] = '<p>Καλώς ήρθατε στο SITE της εταιρίας μας.</p>
-						 <p>Η δύσκολη οικονομική κατάσταση που επικρατεί στη χώρα μας την τελευταία 6-ετία, ο σημαντικός περιορισμός των επιχειρηματικών δραστηριοτήτων σε όλους τους κλάδους της οικονομίας μας, η αβεβαιότητα και η αδυναμία του επιχειρηματικού γίγνεσθαι αποτελούν δυστυχώς μία ζοφερή πραγματικότητα.</p>
-						 <p>Βλέποντας όμως τις διαπιστώσεις αυτές από την αισιόδοξη πλευρά τους, μπορούμε να διακρίνουμε και επιχειρηματικές ευκαιρίες, νέες δυνατότητες αλλά ακόμη και προοπτική για το άμεσο μέλλον.</p>
-						 <p>Βασική επιδίωξη της εταιρίας μας είναι ο εντοπισμός όλων αυτών των θετικών σημείων, σε κάθε εταιρία ξεχωριστά, και σε άμεση συνεργασία με τους φορείς της εταιρίας. Πεποίθησή μας είναι οτι ο κοινός μας στόχος είναι και πρέπει να είναι η πλήρης εκμετάλλευση των όποιων ευκαιριών και δυνατοτήτων υπάρχουν, εντοπίζονται, καταγράφονται και αναλύονται σε βάθος.</p>
-						 <p>Προς την κατεύθυνση αυτή θεωρούμε οτι σε ενέργειες όπως</p>
+	$language['home'] = '<p>Welcome to our company\'s website.</p>
+						 <p>The difficulties our economy faces the last six years, the decline in business ventures in all economic sectors, the uncertainty and the increased risk of business failure constitute unfortunately a reality.</p>
+						 <p>Looking on the bright side of things, though, we can see business opportunities, new possibilities, even a promising near future.</p>
+						 <p>Our main objective is to discern –in direct co-operation with the committee- every company’s positive traits. We are certain that our common goal is and should be to fully exploit every existing opportunity or any chance that is recorded and analysed in detail.</p>
+						 <p>Towards this direction we believe that actions such as</p>
 						 <ul>
-						 	<li>η εσωτερική αναδιοργάνωση της εταιρίας</li>
-						 	<li>η εξεύρεση νέου πελατολογίου σε συνδυασμό με την εξυγίανση του όποιου υφιστάμενου πελατολογίου</li>
-						 	<li>ο εντοπισμός και η ενεργοποίηση - συναφών με μην κύρια – δραστηριοτήτων</li>
-						 	<li>η υλοποίηση οικονομιών κλίμακας</li>
-						 	<li>η διεύρυνση συνεργασιών με τρίτους που ασχολούνται με παρεμφερή αντικείμενα δραστηριότητας ή έχουν κοινό πελατολόγιο</li>
-						 	<li>η ανάλυση των απολογιστικών οικονομικών μεγεθών, ο εντοπισμός αδυναμιών, η υλοποίηση διορθωτικών ενεργειών βάσει συγκεκριμένων πλάνων δράσης</li>
-						 	<li>η κατάστρωση Business Plan με βάση τις ιδιαιτερότητες της κάθε εταιρίας</li>
-						 	<li>ο λεπτομερής προυπολογισμός όλων των οικονομικών μεγεθών και η ανά μήνα λεπτομερής παρακολούθηση, ανάλυση και αναπροσαρμογή των δεδομένων προς υλοποίηση</li>
+						 	<li>the internal restructuring of the company</li>
+						 	<li>finding new clientele combined with supporting and guiding existing clients into correct moves</li>
+						 	<li>spotting and setting new activities related to the main one in motion</li>
+						 	<li>activating economies of scale</li>
+						 	<li>expanding into collaboration with third parties that engage in common activities or have common clientele</li>
+						 	<li>analyzing reviews of financial information, spotting weaknesses, correcting interventions via specific action plans</li>
+						 	<li>preparing a Business Plan according to each company’s needs</li>
+						 	<li>estimating a detailed budget of financial information and monitoring, analyzing and rearranging data on a monthly basis</li>
 						 </ul>
-						 <p>μπορούν να εντοπισθούν ευκαιρίες ανάπτυξης που με την κατάλληλη συμβολή της εταιρίας μας θα μπορέσουν να μετασχηματισθούν σε υγιείς επιχειρηματικές κινήσεις στο άμεσο μέλλον.</p>';
+						 <p>can lead to development opportunities which can turn into healthy business movements in the immediate future with the assistance of our company.</p>';
 	
 	// General Info
-	$language['generalInfo'] = '<p>Βασικός σκοπός και κύρια επιδίωξη της εταιρίας μας είναι να προσφέρει στην κάθε επιχείρηση και στον κάθε ιδιώτη την βέλτιστη δυνατή λύση, πάντα με γνώμονα τις ιδιαιτερότητες της κάθε περίπτωσης αλλά και τις δυνατότητες εφικτών καθώς και βιώσιμων λύσεων.</p>
-								<p>Προς την κατεύθυνση αυτή η εταιρία μας έχει κινηθεί σε 2 βασικούς πυλώνες. Συγκεκριμένα:</p>
-								<p><u>1ος πυλώνας</u> -	η στελέχωση της εταιρίας μας με απολύτως έμπειρα και εξειδικευμένα στελέχη, προερχόμενα κύρια από τον Τραπεζικό χώρο. Οι γνώσεις, η εμπειρία τους και η δυναμικότητά τους συμβάλλουν σημαντικά στην ορθολογική, σε βάθος και αποτελεσματική αντιμετώπιση θεμάτων αλλά και προβλημάτων του επιχειρηματικού κόσμου</p>
-								<p><u>2ος πυλώνας</u> -	για την ανάγκη αντιμετώπισης σύνθετων θεμάτων, που για την επίλυσή τους απαιτείται συνεργασία τρίτων και απολύτως εξειδικευμένη γνώση, η εταιρία μας έχει αναπτύξει ένα ευρύ δίκτυο Εξωτερικών Συνεργατών που διακρίνονται για τις γνώσεις, την εμπειρία τους αλλά και την πολυετή τους παρουσία στο επιχειρηματικό γίγνεσθαι της Βόρειας Ελλάδας. Συγκεκριμένα, υφίστανται συνεργασίες με:</p>
+	$language['generalInfo'] = '<p>Our main goal is to offer every company and every customer the best possible solution according to the particularities of each case and the possibilities of viable, practical solutions.</p>
+								<p>To achieve this goal our company’s actions are based on 2 pillars. In particular:</p>
+								<p><u>1st pillar</u> - our management personnel are fully experienced and specialized , mostly coming from the Banking Industry. Their knowledge, experience and strong will considerably contribute to the rational, deep and effective treatment of cases and problems of the industrial world.</p>
+								<p><u>2nd pillar</u> -	in order to treat complicated issues that demand co-operation with associates that are specialized in a specific sector, our company has got a wide network of External Partners, whose knowledge and experience in the business market of Northern Greece is noteworthy. Specifically our associations are with:</p>
 								<ul>
-									<li>Λογιστικά Γραφεία (Α΄ τάξης)</li>
-									<li>Εξειδικευμένους Φοροτεχνικούς</li>
-									<li>Έμπειρους αναλυτές για τη σύνταξη μελετών πάσης μορφής (π.χ. Business Plan, Βιωσιμότητας, Επενδυτικούς Νόμους,  Κοστολόγηση κ.α.)</li>
-									<li>Δικηγόρους με μεγάλη εμπειρία σε θέματα Αστικού και Εταιρικού Δικαίου</li>
-									<li>Διαπιστευμένο Διαμεσολαβητή για την εξωδικαστική επίλυση διαφορών</li>
+									<li>Accounting Offices (A’ class)</li>
+									<li>Specialized Tax Accountants </li>
+									<li>Experienced Analysts to draw up any kind of studies (Business Plan, Viability Plan, Investment Laws, Costing etc)</li>
+									<li>Highly experienced Lawyers in Civil and Company Law</li>
+									<li>Accredited Mediator to settle extra-judicial matters.</li>
 								</ul>';
 	
 	// Company Info
-	$language['companyInfo'] = '<p><u>1. Επωνυμία</u><br/>Γ. ΘΕΟΔΩΡΟΥ & ΣΥΝΕΡΓΑΤΕΣ Ι.Κ.Ε.</p>
-								<p><u>2. Εταιρικό Κεφάλαιο</u><br/>Το αρχικό Εταιρικό Κεφάλαιο ανέρχεται σε 30.000,00 ευρώ και είναι πλήρως καταβεβλημένο (Κ.Α.Κ. 223901 του Γ.Ε.Μ.Η.)</p>
-								<p><u>3. Αριθμός ΓΕΜΗ</u><br/>130801306000</p>
-								<p><u>4. Εδρα</u><br/>Ορφανίδου 2 και Φράγκων, 2ος όροφος, Θεσσαλονίκη, ΤΚ 546 26</p>
-								<p><u>5. Εταίροι & Είδος Εισφορών</u><br/>•&nbsp;&nbsp;&nbsp;ΓΕΩΡΓΙΟΣ ΘΕΟΔΩΡΟΥ του ΙΩΑΝΝΗ, κάτοικος Θεσσαλονίκης, με κεφαλαιουχικές εισφορές ύψους 22.500,00 ευρώ<br/>•&nbsp;&nbsp;&nbsp;ΙΩΑΝΝΗΣ ΘΕΟΔΩΡΟΥ του ΓΕΩΡΓΙΟΥ, κάτοικος Θεσσαλονίκης, με εξω-κεφαλαιακές εισφορές ύψους 3.000,00 ευρώ<br/>•&nbsp;&nbsp;&nbsp;ΧΡΙΣΤΟΦΟΡΟΣ ΘΕΟΔΩΡΟΥ του ΓΕΩΡΓΙΟΥ, κάτοικος Θεσσαλονίκης, με εξω-κεφαλαιακές εισφορές ύψους 3.000,00 ευρώ<br/>•&nbsp;&nbsp;&nbsp;ΜΙΧΑΗΛ ΘΕΟΔΩΡΟΥ του ΙΩΑΝΝΗ, κάτοικος Θεσσαλονίκης, με εξω-κεφαλαιακές εισφορές ύψους 1.500,00 ευρώ</p>
-								<p><u>6. Διαχειριστής</u><br/>ΓΕΩΡΓΙΟΣ ΘΕΟΔΩΡΟΥ του ΙΩΑΝΝΗ, κάτοικος Θεσσαλονίκης</p>';
+	$language['companyInfo'] = '<p><u>1. Company name</u><br/>Γ. ΘΕΟΔΩΡΟΥ & ΣΥΝΕΡΓΑΤΕΣ Ι.Κ.Ε.</p>
+								<p><u>2. Company Capital</u><br/>The initial Company Capital is 30.000,00 euros and it is fully paid-up (K.A.K. 223901 of G.E.MI)</p>
+								<p><u>3. G.E.MI number</u><br/>130801306000</p>
+								<p><u>4. Company Headquarters</u><br/>2nd Orfanidou Str., 2nd floor, Thessaloniki, PO Box, 54626</p>
+								<p><u>5. Partners and Contribution Kinds</u><br/>•&nbsp;&nbsp;&nbsp;ΓΕΩΡΓΙΟΣ ΘΕΟΔΩΡΟΥ του ΙΩΑΝΝΗ, Thessaloniki resident, with capital contribution of 22500,00 euros<br/>•&nbsp;&nbsp;&nbsp;ΙΩΑΝΝΗΣ ΘΕΟΔΩΡΟΥ του ΓΕΩΡΓΙΟΥ, Thessaloniki resident, with extra-capital contribution of 3.000,00 euros<br/>•&nbsp;&nbsp;&nbsp;ΧΡΙΣΤΟΦΟΡΟΣ ΘΕΟΔΩΡΟΥ του ΓΕΩΡΓΙΟΥ, Thessaloniki resident, with extra-capital contribution of 3.000,00 euros<br/>•&nbsp;&nbsp;&nbsp;ΜΙΧΑΗΛ ΘΕΟΔΩΡΟΥ του ΙΩΑΝΝΗ, Thessaloniki resident, with extra-capital contribution of 1.5000,00 euros</p>
+								<p><u>6. Administrator</u><br/>ΓΕΩΡΓΙΟΣ ΘΕΟΔΩΡΟΥ του ΙΩΑΝΝΗ, Thessaloniki resident</p>';
 								
 	// Office
-	$language['office'] = '<p>Τα γραφεία μας βρίσκονται στο κέντρο της Θεσσαλονίκης, επί της οδού Ορφανίδου 2 και Φράγκων γωνία, στον 2ο όροφο, με πρόσοψη επί της οδού Φράγκων.</p>
-						   <p>Διαθέτουμε πλήρη υλικοτεχνική και ηλεκτρονική υποδομή για την σωστή και έγκαιρη ανταπόκριση στις ανάγκες των πελατών μας αλλά και την μέγιστη απόδοση των έμπειρων συνεργατών μας.</p>
-						   <p>Πιστεύουμε οτι ο χώρος εργασίας δεν αποτελεί απλά ένα χώρο καθημερινής απασχόλησης αλλά ένα χώρο που να εμπνέει δημιουργικά και να υποστηρίζει επαρκώς όλες τις ανάγκες των εργαζομένων μας.</p>
-						   <p>Συγκεκριμένα :
+	$language['office'] = '<p>Our offices are in Thessaloniki city center, on the corner of 2nd Orfanidou and Fragon street, on the 2nd floor, facing Fragon street.</p>
+						   <p>We provide full technical and electronic infrastructure so as to respond appropriately and punctually to our customer’s needs. We also provide you with the top efficiency of our experienced colleagues.</p>
+						   <p>We believe that the work area is not just a place of daily employment but an environment that inspires employees creatively and sufficiently supports all their needs.</p>
+						   <p>In particular
 						   		<ul>
-						   			<li>διευθυντικό γραφείο</li>
-						   			<li>αίθουσα συσκέψεων</li>
-						   			<li>θέσεις εργασίας -6-</li>
-						   			<li>γραφείο γραμματείας</li>
-						   			<li>βοηθητικούς χώρους</li>
+						   			<li>Manager’s office</li>
+						   			<li>Conference Room</li>
+						   			<li>Employment position -6-</li>
+						   			<li>Secretary’s office</li>
+						   			<li>Ancillary areas</li>
 						   		</ul>
 						   </p>';
 						   
 	// Services
-	$language['services'] = '<h5><i><u>Χρηματοοικονομικές Υπηρεσίες</u></i></h5>
+	$language['services'] = '<h5><i><u>Financial Services</u></i></h5>
 							 <ul>
-							 	<li><u>Αναδιάρθρωση Δανειακών Υπολοίπων σε Τράπεζες.</u> Η εταιρία μας αναλαμβάνει πλήρως την διαδικασία υποβολής σχετικού αιτήματος προς οποιαδήποτε Ελληνική Τράπεζα. Προς την κατεύθυνση αυτή η εταιρία μας
-							 		<ul class="no-list-style">
-							 			<li><span>συγκεντρώνει, αναλύει και σχολιάζει όλα τα οικονομικά μεγέθη της 	επιχείρησης σε βάθος τουλάχιστον τριετίας</span></li>
-							 			<li><span>συντάσσει πίνακα ανάλυσης όλων των Δανειακών Υπολοίπων της επιχείρησης (ανά Τράπεζα, Νόμισμα, Είδος Χρηματοδότησης και 	Μορφή Εξασφάλισης)</span></li>
-							 			<li><span>με βάση τα παραπάνω στοιχεία, η εταιρία μας καταστρώνει συγκεκριμένο σχέδιο εναλλακτικών λύσεων που κατά την άποψή μας αντιμετωπίζουν σοβαρά και σε βάθος το πρόβλημα, αλλά και που έχουν 	σοβαρές πιθανότητες αποδοχής από την αρμόδια Τράπεζα</span></li>
-							 			<li><span>συζητούνται αναλυτικά με τους φορείς της κάθε εταιρίας όλες οι ενδεχόμενες λύσεις που θα προτείνει η εταιρία μας με σκοπό την επιλογή της βέλτιστης</span></li>
-							 			<li><span>τέλος, αναλαμβάνουμε πλήρως την παρουσίαση του αιτήματος στην οποιαδήποτε Τράπεζα, με πλήρη επιχειρηματολογία επί των αιτουμένων και φυσικά με αυτοπρόσωπη παρουσία μας στις διμερείς συζητήσεις επί της πρότασης Αναδιάρθρωσης Δανεισμού</span></li>
+							 	<li><u>Restructuring of Debt Credit to Banks.</u> Our company carries out the process of submitting relevant application to any Greek Bank. Towards this direction our company
+							 		<ul class="no-list-style-en">
+							 			<li><span>collects, analyzes and comments on any financial values of the company over the last three years</span></li>
+							 			<li><span>carries out an analysis table of all Credit Debts of the Company ( according to Bank, currency, kind of funding and Collateral Form)</span></li>
+							 			<li><span>based on the information above, our company prepares a specific plan that offers alternative solutions which face every problem in earnest and which are highly possible to be accepted by the accountable Bank</span></li>
+							 			<li><span>all the potential solutions are discussed in detail with all the company ‘s members with the objective of choosing the best possible solution</span></li>
+							 			<li><span>finally, we undertake the appeal presentation to any Bank, being fully prepared as far as argumentation is concerned and also being present in the bilateral discussion that refers to the Debt Restructuring suggestion</span></li>
 							 		</ul>
 							 	</li>
-							 	<li><u>Σύνταξη Μελετών πάσης φύσεως</u> (π.χ. Βιωσιμότητας για την υποστήριξη αιτημάτων αναδιάρθρωσης δανείων, Business Plan για την υποστήριξη επιχειρηματικών ή άλλων σχεδίων, σύνταξη S.W.O.T. Analysis με πλήρη και αναλυτική επιχειρηματολογία επί του κάθε σημείου, μελέτες για Επενδυτικούς Νόμους ή και νέες επιχειρηματικές επενδύσεις κ.α.)</li>
+							 	<li><u>Drawing up studies of any kind</u> (eg. Viability Study to support claims of Debt Restructuring , Business Plan to support business or other plans, SWOT Analysis with a complete and detailed argumentation on every piece of information, studies about Investment Laws or even new business investments etc.)</li>
 							 </ul>
 
-							 <h5 class="service-header"><i><u>Συμβουλευτικές Υπηρεσίες</u></i></h5>
+							 <h5 class="service-header"><i><u>Consulting Services</u></i></h5>
 							 <ul>
-							 	<li>Κατάρτιση και συνεχής παρακολούθηση προγράμματος Ταμειακών Ροών (Cash Flow) σε εβδομαδιαία, 15νθήμερη ή μηνιαία βάση αναφοράς</li>
-							 	<li>Ανάλυση Οικονομικών Στοιχείων, εξαγωγή Αριθμοδεικτών και πλήρης σχολιασμός επί όλων των απολογιστικών μεγεθών Ισολογισμών και Ισοζυγίων</li>
-							 	<li>Σύνταξη Προυπολογισμού όλων των μεγεθών με βάση τα απολογιστικά λογιστικά στοιχεία αλλά και τα διαρκώς μεταβαλλόμενα δεδομένα της αγοράς. Στο σημείο αυτό τονίζεται ο δυναμικός χαρακτήρας του Προυπολογισμού καθόσον μπορεί να μεταβάλλεται διαρκώς, προσαρμοζόμενος στα νέα δεδομένα και στις διαφοροποιήσεις των συνθηκών</li>
-							 	<li>Σύνταξη συγκεκριμένης πρότασης για την εσωτερική αναδιοργάνωση της κάθε εταιρίας, με βάση τα τρέχοντα δεδομένα αλλά και τις διαγραφόμενες προοπτικές</li>
-							 	<li>Λοιπές συμβουλευτικές υπηρεσίες όπως : εξυγίανση υφιστάμενου πελατολογίου, εξεύρεση νέου πελατολογίου, εντοπισμός νέων και συναφών δραστηριοτήτων, υλοποίηση οικονομιών κλίμακας κ.α.</li>
+							 	<li>Training and constant attendance of a Cash Flow program on a weekly, fortnight and monthly basis</li>
+							 	<li>Analysis of financial information, financial ratio extrapolation, and a full review of Balance sheets and statements of financial position</li>
+							 	<li>Drawing up the budget of every piece of information according to the review of accounting evidence and the constantly changing nature of the business market</li>
+							 	<li>Drawing up a specific suggestion for the internal reorganization of each company according to its current situation and its future potential, as well</li>
+							 	<li>•	Other consultant service, such as: supporting existing clientele towards renewal, finding new clientele, detecting new activities, penetrating economies of scale etc.</li>
 							 </ul>
 
-							 	<h5 class="service-header"><i><u>Λογιστικές & Φοροτεχνικές Υπηρεσίες</u></i></h5>
-							 	<p>Οι υπηρεσίες αυτές παρέχονται – υπό την επίβλεψη και με την ευθύνη της εταιρίας μας - από έμπειρους και εξειδικευμένους Εξωτερικούς Συνεργάτες (Λογιστικά Γραφεία Α΄ τάξης, Φοροτεχνικούς κ.α.)</p>
+							 	<h5 class="service-header"><i><u>Accounting and Tax services</u></i></h5>
+							 	<p>These services are provided-under the supervision and responsibility of our company-by experienced and specialized associates (A’ class Accounting Offices, Tax consultants etc.)</p>
 							 	<ul>
-							 		<li>Πλήρης και έγκυρη παρακολούθηση Λογιστικών Βιβλίων και Στοιχείων (Β & Γ Κατηγορίας)</li>
-							 		<li>Σύνταξη φορολογικών δηλώσεων (για επιχειρήσεις και ιδιώτες)</li>
-							 		<li>Σύνταξη Εντύπων Ε9 (για επιχειρήσεις και ιδιώτες)</li>
-							 		<li>Συμβουλευτικές Υπηρεσίες επί Φοροτεχνικών – Φορολογικών θεμάτων (για επιχειρήσεις και ιδιώτες)</li>
+							 		<li>Complete and valid attendance of Accounting Books and Data (B & C category)</li>
+							 		<li>Filing tax returns (for companies and individuals)</li>
+							 		<li>Filing E9 tax forms (for companies and individuals)</li>
+							 		<li>Consulting services on tax accounting (for companies and individuals)</li>
 							 	</ul>
 
-							 	<h5 class="service-header"><i><u>Νομικές Υπηρεσίες</u></i></h5>
-							 	<p>Οι υπηρεσίες αυτές παρέχονται – υπό την επίβλεψη και με την ευθύνη της εταιρίας μας - από έμπειρους και εξειδικευμένους Εξωτερικούς Συνεργάτες – Δικηγόρους – Διαπιστευμένους Διαμεσολαβητές.<br/>
-							 	Οι υπηρεσίες αυτές καλύπτουν σχεδόν κάθε τομέα δικαίου, με έμφαση όμως στο δίκαιο των Επιχειρήσεων, παρέχοντας επιπλέον υπηρεσίες διαχείρισης συγκρούσεων στις επιχειρήσεις και στους επιχειρηματίες.<br/>
-							 	Παράλληλα ενθαρρύνουμε την επίλυση των διαφορών μέσω του θεσμού της Διαμεσολάβησης και των Διαπραγματεύσεων, που διεξάγονται με απόλυτη εμπιστευτικότητα, ενεργώντας άλλοτε ως διαμεσολαβητές και άλλοτε ως πληρεξούσιοι δικηγόροι των μερών.</p>
-							 	<p>Ειδικότητες:</p>
+							 	<h5 class="service-header"><i><u>Law Services</u></i></h5>
+							 	<p>These services are provided- under the supervision and responsibility of our company- by experienced and specialized Associates-Lawyers-Accredited mediators.<br/>
+							 	These services refer to almost every Law sector but they emphasize on Business Law providing extra services of conflict management to companies and businessmen.<br/>
+							 	We also encourage problem solutions through Mediation and Negotiations, which we hold confidentially by acting either as Mediators or appointed attorneys-at-law.</p>
+							 	<p>Specialties:</p>
 							 	<ul>
-							 		<li><u>Δίκαιο Επιχειρήσεων – Εμπορικό Δίκαιο</u> (ίδρυση και απόκτηση εταιριών, εκκαθάριση επιχειρήσεων, συγχωνεύσεις και εξαγορές, πώληση και αγορά μετοχών, εταιρική αναδιοργάνωση και ανασυγκρότηση, κοινοπραξίες, αύξηση κεφαλαίου, συμφωνίες μετόχων, συμφωνίες αντιπροσώπευσης, συμφωνίες εγγύησης αντιπροσώπευσης κ.α.)</li>
-							 		<li><u>Δίκαιο Επιχειρήσεων – Συμβάσεις</u> (αγορά περιουσιακών στοιχείων, μεταβιβάσεις, διανομή, franchise, κοινοπραξίες, μισθώσεις, άδειες, δάνεια, συγχωνεύσεις, υποθήκες, πωλήσεις με μίσθωση, συμφωνίες μετόχων κ.α.)</li>
-							 		<li><u>Τραπεζικό Δίκαιο</u> (διαχείριση τραπεζικών συναλλαγών, αξιολόγηση όρων τραπεζικών συμβάσεων (ΓΟΣ), ζητήματα από συμβάσεις πίστωσης -ειδικότερα καταναλωτικής πίστεως, πιστωτικών χρεών κ.α.-, ζητήματα προστασίας καταναλωτή, άμυνα καταδιωκτικών μέτρων των Τραπεζών -ανακοπές, αναστολές διαταγών πληρωμής, αναστολή πλειστηριασμών ακινήτων κ.α.-, διαπραγμάτευση με Πιστωτικά Ιδρύματα, ρύθμιση τραπεζικών οφειλών κ.α.}</li>
-							 		<li><u>Αστικό Δίκαιο</u> (ενοχικό, εμπράγματο, οικογενειακό, κληρονομικό)</li>
-							 		<li><u>Ακίνητα & Διαχείριση Ακίνητης Περιουσίας</u> (διαπραγμάτευση και κατάρτιση συμβάσεων αγοραπωλησίας ακινήτων, εργολαβικών συμβάσεων κ.α., επαγγελματικές μισθώσεις ακινήτων, έλεγχος τίτλων, μισθωτικές διαφορές -δικαστική επιδίωξη οφειλόμενων μισθωμάτων, αγωγές και διαταγές απόδοσης μισθίου κ.α.-, διανομή ακινήτων κ.α.}</li>
-							 		<li><u>Υπερχρεωμένα Νοικοκυριά</u> (σύμφωνα με τα προβλεπόμενα του Ν. 3869/10)</li>
-							 		<li><u>Διαμεσολάβηση σε Αστικές, Εργατικές, ΟΙκογενειακές και Εμπορικές υποθέσεις:</u></li>
-							 		<li>Η διαμεσολάβηση χρησιμοποιείται σε εμπορικές, αστικές, οικογενειακές και εργατικές διαφορές. Στη διαμεσολάβηση συμμετέχουν, ο διαμεσολαβητής και τα αντίδικα μέρη με τους δικηγόρους τους (Ν. 3898/2010)</li>
+							 		<li><u>Business Law - Commercial Law</u> (company founding and acquisition, selling-off, mergers and buy-outs, share purchase and selling, re-organization and restructuring of the company, joint ventures, capital increase, shareholders’ agreement, representation agreements, representation guarantee agreement etc).</li>
+							 		<li><u>Business Law - Contracts</u> (Assets’ purchase, transfers, distribution, franchise, joint ventures, leasing permits, loans, mergers, mortgages, sale and lease back, shareholders’ agreement etc.)</li>
+							 		<li><u>Bank Law</u> (bank exchange management, term evaluation of bank contracts, credit contract issues-specifically consumer credit, credit debits etc- consumer protection issues, defense against bank prosecuting measures- caveats, payment order suspension, estate auction suspension etc., negotiation with Credit Institutions, debt settlement etc.}</li>
+							 		<li><u>Civil Law</u> (law of obligations, property law, family law, succession law)</li>
+							 		<li><u>Real Estate and Property Estate Management</u> (negotiation and conveyance contracts, contractor agreements etc, professional real estate leasing, inspection of the Ownership Titles of the Property, lease disputes- judicial pursuit due rents, actions and orders return rented property etc.- property distribution etc.}</li>
+							 		<li><u>Overcharged Household</u> (according to Ν. 3869/10)</li>
+							 		<li><u>Mediation to Civil, Labour, Family and Commercial issues:</u></li>
+							 		<li>Mediation is used in commercial, civil , family and labour differences. The mediator and the opposing parties represented by their lawyers take part in the mediation procedure (N.3898/2010)</li>
 							 	</ul>
-							 	<p>Η διαδικασία διεξάγεται μέσα από εμπιστευτικές συνομιλίες και διαπραγματεύσεις με τη βοήθεια του <u>διαπιστευμένου</u> διαμεσολαβητή, ο οποίος πρέπει να είναι εξειδικευμένος και αμερόληπτος. Η ευελιξία και η αμεσότητα του χαρακτήρα της διαμεσολάβησης, επιτρέπουν στα μέρη να επικεντρωθούν στην ουσία της διαφοράς. Δίδεται δε, ιδιαίτερη βαρύτητα, στην προσωπικότητα, τις ανάγκες και τα συμφέροντα των μερών. Ο Διαμεσολαβητής διασφαλίζει την τήρηση των αρχών της διαμεσολαβητικής διαδικασίας και εφόσον τα μέρη καταλήξουν σε συμφωνία, το Πρακτικό της Διαμεσολάβησης είναι δεσμευτικό και άμεσα εκτελεστός τίτλος.</p>';
+							 	<p>The above procedure takes place through confidential discussion and negotiation with the help of an accredited negotiator, who has to be specialized and impartial. The flexibility and immediacy of the mediation procedure allows the parties to focus on the essence o their difference. Special attention is given to the parties’ personality, needs and interests. The Mediator ensures that the principles of the mediation procedure are followed and if the parties are led to an agreement, the Minute of the Mediation is obligatory and an immediately enforced order.</p>';
 	
 	// Contact Us
 	$language['contact']['pageTitle'] = 'Επικοινωνία';
