@@ -103,6 +103,20 @@ body {
 	font-size: 18px;
 }
 
+.flags-div {
+	height: 50px;
+}
+
+.flag-icon {
+	width: 24px;
+	height: 24px;
+	margin-top: 13px;
+}
+
+.flags-div > a:first-child {
+	margin-right: 6px;
+}
+
 /*
 .footer > .container > div > a {
 	color: #888;

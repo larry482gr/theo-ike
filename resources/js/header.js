@@ -15,7 +15,7 @@ $(document).ready(function() {
 	        tmp_hash = window.location.hash;
 	        showPage();
 	    }
-	}, 100);
+	}, 400);
 	
 	function showPage() {
 		if(window.location.hash.length > 0) {
@@ -47,6 +47,10 @@ $(document).ready(function() {
 		}
 		
 		tmp_hash = window.location.hash;
+		
+		$('.flags-div a').each(function() {
+			$(this).attr('href', $(this).attr('rel') + tmp_hash);
+		});
 	}
 	
 	function setLocale() {

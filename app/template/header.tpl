@@ -88,6 +88,10 @@
 				echo $navigation_menu;
           	?>
           	</ul>
+          	<div class="flags-div pull-right">
+          	  <a href="/gr/" rel="/gr/"><img src="/resources/images/icons/gr_circle.png" class="flag-icon" /></a>
+              <a href="/en/" rel="/en/"><img src="/resources/images/icons/uk_circle.png" class="flag-icon" /></a>
+            </div>
           </div>
         </div>
 	  </nav>

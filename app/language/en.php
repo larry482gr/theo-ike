@@ -96,9 +96,9 @@
 							 <ul>
 							 	<li>Training and constant attendance of a Cash Flow program on a weekly, fortnight and monthly basis</li>
 							 	<li>Analysis of financial information, financial ratio extrapolation, and a full review of Balance sheets and statements of financial position</li>
-							 	<li>Drawing up the budget of every piece of information according to the review of accounting evidence and the constantly changing nature of the business market</li>
+							 	<li>Drawing up the budget of every piece of information according to the review of accounting evidence and the constantly changing nature of the business market. At this point the dynamic nature of the Budget is highlighted as it can vary applying to the new data and the diversification of the circumstances.</li>
 							 	<li>Drawing up a specific suggestion for the internal reorganization of each company according to its current situation and its future potential, as well</li>
-							 	<li>•	Other consultant service, such as: supporting existing clientele towards renewal, finding new clientele, detecting new activities, penetrating economies of scale etc.</li>
+							 	<li>Other consultant service, such as: supporting existing clientele towards renewal, finding new clientele, detecting new activities, penetrating economies of scale etc.</li>
 							 </ul>
 
 							 	<h5 class="service-header"><i><u>Accounting and Tax services</u></i></h5>
