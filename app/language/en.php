@@ -69,7 +69,7 @@
 						   <p>We believe that the work area is not just a place of daily employment but an environment that inspires employees creatively and sufficiently supports all their needs.</p>';
 
 	// Balance
-	$language['balance']['year'] = 'Balance Sheet Year';
+	$language['balance']['year'] = 'Balance Sheet';
 						   
 	// Services
 	$language['services'] = '<h5><i><u>Financial Services</u></i></h5>
@@ -150,7 +150,7 @@
     
     // Tabs
 	$language['menu']['home'] = array('tab' => array('label' => 'Home', 'link' => '#home'));
-	$language['menu']['company'] = array('tab' => 'The Company', 'subtabs' => array(0 => array('label' => 'General Information', 'link' => '#general_info'), array('label' => 'Office', 'link' => '#office'), array('label' => 'Company Information', 'link' => '#company_info'), array('label' => 'Financial Data', 'link' => '#balance')));
+	$language['menu']['company'] = array('tab' => 'The Company', 'subtabs' => array(0 => array('label' => 'General Information', 'link' => '#general_info'), array('label' => 'Office', 'link' => '#office'), array('label' => 'Company Information', 'link' => '#company_info'), array('label' => 'Financial Information', 'link' => '#balance')));
 	$language['menu']['services'] = array('tab' => array('label' => 'Services', 'link' => '#services'));
 	$language['menu']['contact'] = array('tab' => array('label' => 'Contact Us', 'link' => '#contact_us'));
 ?>
