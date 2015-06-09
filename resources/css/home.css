@@ -53,3 +53,13 @@ dd {
 	padding-left: 25px;
 	list-style-type: lower-latin;
 }
+
+#balance-header {
+	margin-top: 6px !important;
+	margin-bottom: 8px !important;
+}
+
+#balance-list {
+	list-style: none;
+	padding-left: 15px;
+}

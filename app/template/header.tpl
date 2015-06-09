@@ -30,6 +30,7 @@
 	<input type="hidden" id="general_info-title" value="<?php echo $menu['company']['tab'].' / '.$menu['company']['subtabs'][0]['label']; ?>" />
 	<input type="hidden" id="office-title" value="<?php echo $menu['company']['tab'].' / '.$menu['company']['subtabs'][1]['label']; ?>" />
 	<input type="hidden" id="company_info-title" value="<?php echo $menu['company']['tab'].' / '.$menu['company']['subtabs'][2]['label']; ?>" />
+	<input type="hidden" id="balance-title" value="<?php echo $menu['company']['tab'].' / '.$menu['company']['subtabs'][3]['label']; ?>" />
 	<input type="hidden" id="services-title" value="<?php echo $menu['services']['tab']['label']; ?>" />
 	<input type="hidden" id="contact_us-title" value="<?php echo $menu['contact']['tab']['label']; ?>" />
 	<input type="hidden" id="lang" value="<?php echo $lang; ?>" />

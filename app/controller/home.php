@@ -6,8 +6,9 @@ class ControllerHome extends Controller {
 		$this->data['lang'] = $this->language->getCurrentLanguage();
 		$this->data['home'] = $this->language->getLanguage('home');
 		$this->data['generalInfo'] = $this->language->getLanguage('generalInfo');
-		$this->data['companyInfo'] = $this->language->getLanguage('companyInfo');
 		$this->data['office'] = $this->language->getLanguage('office');
+		$this->data['companyInfo'] = $this->language->getLanguage('companyInfo');
+		$this->data['balance'] = $this->language->getLanguage('balance');
 		$this->data['services'] = $this->language->getLanguage('services');
 		$this->data['contact'] = $this->language->getLanguage('contact');
 		$this->data['form'] = $this->language->getLanguage('form');

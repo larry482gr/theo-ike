@@ -9,13 +9,13 @@
 	$language['header']['siteTitle'] = 'Γ.ΘΕΟΔΩΡΟΥ & ΣΥΝΕΡΓΑΤΕΣ Ι.Κ.Ε.';
 	$language['header']['siteSubtitle'] = 'Υπηρεσίες Παροχής Χρηματοοικονομικών Συμβουλών';
 	$language['header']['toggleMenu'] = 'Toggle navigation';
-	$language['header']['office'] = '2nd Orfanidou str., PO Box 54626, Thessaloniki';
+	$language['header']['office'] = '2nd Mitr. Iosif str. and Nikis Avenue, Thessaloniki';
 	$language['header']['tel'] = 'Landline: 2310 528616';
 	$language['header']['search'] = 'Search';
 	
 	// Footer
 	$language['footer']['copyright'] = 'Copyright &copy; 2014 Γ.ΘΕΟΔΩΡΟΥ & ΣΥΝΕΡΓΑΤΕΣ Ι.Κ.Ε.';
-	$language['footer']['developed'] = 'Developed by: <a href="mailto:lakazantzis@gmail.com">Λ.Καζαντζής</a>';
+	$language['footer']['developed'] = 'Designed & Developed by: <a href="mailto:lakazantzis@gmail.com">L. Kazantzis</a>';
 
 	// Admin Header
 	$language['adminHeader']['title'] = 'Administration Panel';
@@ -59,23 +59,17 @@
 	$language['companyInfo'] = '<p><u>1. Company name</u><br/>Γ. ΘΕΟΔΩΡΟΥ & ΣΥΝΕΡΓΑΤΕΣ Ι.Κ.Ε.</p>
 								<p><u>2. Company Capital</u><br/>The initial Company Capital is 30.000,00 euros and it is fully paid-up (K.A.K. 223901 of G.E.MI)</p>
 								<p><u>3. G.E.MI number</u><br/>130801306000</p>
-								<p><u>4. Company Headquarters</u><br/>2nd Orfanidou Str., 2nd floor, Thessaloniki, PO Box, 54626</p>
+								<p><u>4. Company Headquarters</u><br/>2nd Mitr. Iosif street and Nikis Avenue, 2nd floor, Thessaloniki, PO Box, 54622</p>
 								<p><u>5. Partners and Contribution Kinds</u><br/>•&nbsp;&nbsp;&nbsp;ΓΕΩΡΓΙΟΣ ΘΕΟΔΩΡΟΥ του ΙΩΑΝΝΗ, Thessaloniki resident, with capital contribution of 22500,00 euros<br/>•&nbsp;&nbsp;&nbsp;ΙΩΑΝΝΗΣ ΘΕΟΔΩΡΟΥ του ΓΕΩΡΓΙΟΥ, Thessaloniki resident, with extra-capital contribution of 3.000,00 euros<br/>•&nbsp;&nbsp;&nbsp;ΧΡΙΣΤΟΦΟΡΟΣ ΘΕΟΔΩΡΟΥ του ΓΕΩΡΓΙΟΥ, Thessaloniki resident, with extra-capital contribution of 3.000,00 euros<br/>•&nbsp;&nbsp;&nbsp;ΜΙΧΑΗΛ ΘΕΟΔΩΡΟΥ του ΙΩΑΝΝΗ, Thessaloniki resident, with extra-capital contribution of 1.5000,00 euros</p>
 								<p><u>6. Administrator</u><br/>ΓΕΩΡΓΙΟΣ ΘΕΟΔΩΡΟΥ του ΙΩΑΝΝΗ, Thessaloniki resident</p>';
 								
 	// Office
-	$language['office'] = '<p>Our offices are in Thessaloniki city center, on the corner of 2nd Orfanidou and Fragon street, on the 2nd floor, facing Fragon street.</p>
+	$language['office'] = '<p>Our offices are in Thessaloniki city center, on the corner of 2nd Mitr. Iosif street and Nikis Avenue, on the 2nd floor, facing Nikis Avenue.</p>
 						   <p>We provide full technical and electronic infrastructure so as to respond appropriately and punctually to our customer’s needs. We also provide you with the top efficiency of our experienced colleagues.</p>
-						   <p>We believe that the work area is not just a place of daily employment but an environment that inspires employees creatively and sufficiently supports all their needs.</p>
-						   <p>In particular
-						   		<ul>
-						   			<li>Manager’s office</li>
-						   			<li>Conference Room</li>
-						   			<li>Employment position -6-</li>
-						   			<li>Secretary’s office</li>
-						   			<li>Ancillary areas</li>
-						   		</ul>
-						   </p>';
+						   <p>We believe that the work area is not just a place of daily employment but an environment that inspires employees creatively and sufficiently supports all their needs.</p>';
+
+	// Balance
+	$language['balance']['year'] = 'Balance Sheet Year';
 						   
 	// Services
 	$language['services'] = '<h5><i><u>Financial Services</u></i></h5>
@@ -129,7 +123,7 @@
 	
 	// Contact Us
 	$language['contact']['pageTitle'] = 'Επικοινωνία';
-	$language['contact']['office'] = '2nd Orfanidou str., PO Box 54626, Thessaloniki';
+	$language['contact']['office'] = '2nd Mitr. Iosif street and Nikis Avenue, PO Box 54622, Thessaloniki';
 	$language['contact']['tel'] = 'Landline: 2310 528616';
 	$language['contact']['mobile'] = 'Mobile: 6940 260668';
 	$language['contact']['fax'] = 'Fax: 2310 528609';
@@ -156,7 +150,7 @@
     
     // Tabs
 	$language['menu']['home'] = array('tab' => array('label' => 'Home', 'link' => '#home'));
-	$language['menu']['company'] = array('tab' => 'The Company', 'subtabs' => array(0 => array('label' => 'General Information', 'link' => '#general_info'), array('label' => 'Office', 'link' => '#office'), array('label' => 'Company Information', 'link' => '#company_info')));
+	$language['menu']['company'] = array('tab' => 'The Company', 'subtabs' => array(0 => array('label' => 'General Information', 'link' => '#general_info'), array('label' => 'Office', 'link' => '#office'), array('label' => 'Company Information', 'link' => '#company_info'), array('label' => 'Financial Data', 'link' => '#balance')));
 	$language['menu']['services'] = array('tab' => array('label' => 'Services', 'link' => '#services'));
 	$language['menu']['contact'] = array('tab' => array('label' => 'Contact Us', 'link' => '#contact_us'));
 ?>

@@ -27,22 +27,22 @@
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner">
 			    <div class="item active">
-			      <img src="/resources/images/office/4927_4927-1.jpg" alt="Office Image 1">
+			      <img src="/resources/images/office/img_0481.jpg" alt="Office Image 1">
 			    </div>
 			    <div class="item">
-			      <img src="/resources/images/office/4927_4927-2.jpg" alt="Office Image 2">
+			      <img src="/resources/images/office/img_0482.jpg" alt="Office Image 2">
 			    </div>
 			    <div class="item">
-			      <img src="/resources/images/office/4927_4927-4.jpg" alt="Office Image 3">
+			      <img src="/resources/images/office/img_0483.jpg" alt="Office Image 3">
 			    </div>
 			    <div class="item">
-			      <img src="/resources/images/office/4927_4927-6.jpg" alt="Office Image 4">
+			      <img src="/resources/images/office/img_0484.jpg" alt="Office Image 4">
 			    </div>
 			    <div class="item">
-			      <img src="/resources/images/office/4927_4927-10.jpg" alt="Office Image 5">
+			      <img src="/resources/images/office/img_0485.jpg" alt="Office Image 5">
 			    </div>
 			    <div class="item">
-			      <img src="/resources/images/office/4927_4927-12.jpg" alt="Office Image 6">
+			      <img src="/resources/images/office/img_0486.jpg" alt="Office Image 6">
 			    </div>
 			  </div>
 			
@@ -58,6 +58,19 @@
 	  	</dl>
 	  	<dl id="company_info" class="hidden col-md-12 col-sm-12 col-xs-12">
 	  		<?php echo $companyInfo; ?>
+	  	</dl>
+	  	<dl id="balance" class="hidden col-md-12 col-sm-12 col-xs-12">
+	  		<div class="row">
+		  		<h4 id="balance-header" class="pull-left"><?php echo $balance['year']; ?></h4>
+	  			<div id="balance-list" class="btn-group" role="group">
+		  			<button id="balance2014" type="button" class="balance-link btn btn-default">2014</button>
+		  		</div>
+	  		</div>
+	  		<div class="row">
+		  		<div class="embed-responsive embed-responsive-16by9">
+					<object id="balance-file" class="embed-responsive-item" data="" alt="pdf" type="application/pdf"></object>
+				</div>
+			</div>
 	  	</dl>
 	  	<dl id="services" class="hidden col-md-12 col-sm-12 col-xs-12">
 	  	  <?php echo $services; ?>
